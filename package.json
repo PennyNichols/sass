@@ -4,14 +4,14 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "sass": ""
+    "sass": "sass "
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/PennyNichols/sass.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Penny Nichols",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/PennyNichols/sass/issues"
