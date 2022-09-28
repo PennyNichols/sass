@@ -1,0 +1,23 @@
+{
+  "name": "sass",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": ""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PennyNichols/sass.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PennyNichols/sass/issues"
+  },
+  "homepage": "https://github.com/PennyNichols/sass#readme",
+  "dependencies": {
+    "sass": "^1.55.0"
+  }
+}
