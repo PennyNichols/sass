@@ -1,0 +1,21 @@
+#show-case{
+    padding: 1rem;
+    background-color: $secondaryColor;
+    h1{
+      color: white;
+      text:{
+        align: center;
+        transform: lowercase;
+        overflow: hidden;
+      }
+    }
+  
+    h2{
+      color: blue;
+      font:{
+        family: Arial; 
+        size: 18px;
+        weight: bold;
+      }
+    }
+  }

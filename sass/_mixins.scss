@@ -1,0 +1,24 @@
+@mixin important{
+    color: red;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  @mixin btn($bgColor:lightgray, $color:#333){
+    border: none;
+    padding: 1rem;
+    text-align: center;
+    cursor: pointer;
+    background-color: $bgColor ;
+    color: $color;
+  }
+  
+  @mixin border($color:gray, $width:1px) {
+      border: $width solid $color;
+  }
+  
+  @mixin transform($property) {
+    transform: $property;
+    -webkit-transform: $property;
+    -ms-transform: $property;
+  }

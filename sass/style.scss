@@ -1,9 +1,29 @@
 @import 'global';
+@import 'navbar';
+@import '_showcase';
+@import 'buttons';
+@import 'mixins';
+@import 'extend';
+@import 'operators';
 
-h2{
-    color: $primaryColor;
+
+p {
+ @include important; 
 }
 
-p{
-    color: $secondaryColor;
+h2{
+   @include important; 
+   @include transform(rotate(45deg));
+}
+
+.warning{
+  @include btn(orange, black);
+  &:hover{
+    background-color: darken(orange, 20);
+  }
+}
+
+.delete{
+  @include btn(red, white);
+  @include border(yellow, 3px);
 }
